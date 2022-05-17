@@ -1,0 +1,89 @@
+<!--DOCTYPE html-->
+<html lang="en">
+  <head>
+    <title>Lab 10 Internal CSS/title </title>
+     <link rel="icon" type="image/png" href="../../Caiyel.png">
+    <body>
+    <style>
+      /*the* works as universal  selector for CSS*/
+      *{
+        box-sizing:border-box;
+      }
+      /*A CSS selector selects the HTML element(s) you want to style. simple selectors (select elements based on name' id, Class)*/
+      body{
+        link-color: ; 
+      }
+      .header{
+        background-image:url('forest-bathing.jpg');
+      }
+      /*the id selector uses the id attribute of an html element to select a specific element. the id of an element is unique within a page, so the id selector is used to select one unigue element! To select an element with a specific id, write a hash (#) character, followed by the id of the element. Exmaple the CSS rule below will be applied to HTML element with id= "para1": */
+      #demoBox{
+        text-align: center;
+        color: red;
+      } 
+      /* The grouping selector selects all the  HTML elements with the same style definitions. look at the folloing  CSS code (the h1, h2, and p elements have the same style definitions). It will be better to group the selectors,  the minimize the code. To group selectors, separate each selwctor wth a coma.*/
+      p, h1, h3,h4,{  color:red;
+
+      }
+      /*A combinator is something that explains the relationship between the selectors. A CSS selector can contain more than one simple selectors, we can include a combinator.There are four different combinator in CSS:
+      descendant selector (space)
+      child  seclector (>)
+      adjacent sibling  selector (+)
+      gen
+      /8A combin
+      */
+
+      /*changes color on hover or mouse over */
+      /*A pseudo-class is used to define a specical state og an element.for example, it can be used to: Style an element when a user mouse over it style visited and unvisited links differently
+      style an element when it gets focus
+      */
+      a:hover {
+  color: #FF00FF;
+  }
+   
+      /*The[attribute]selector is used to select elements with a pecifled attribute. The following examlp selects all <a> elements with a target attribute:*/
+      p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+      </style>
+      </head.
+      </body>
+  <div class="header">
+  </body>
+  
+    <div class="topnav">
+  <a href="lab/lab1/Lab1.html">lab1</a>  
+  <a href="lab/lab2/lap2.html">lab2</a>
+  <a href="lab/lab3/lab3.html">lab3</a>
+  <a href="lab/lab4/lab4.html">lab4</a>
+  <a herf="lab/lab5/lab5.html">lab5</a>
+  <a herf="lab/lab6/lab6.html">lab6</a>
+  <a herf="lab/lab7/lab7.html">lab7</a>
+  <a herf="lab8/lab8/lab8.html">lab8</a>
+  <a href="lab/lab9/lab9.html">lab9</a>
+  <a href="lab/lb10/lb10.html">lab10</a>
+  <a herf="lab/lb11/lb11.html">lab11</a>
+  <a herf="lab/lb12/lb12.html">lab12</a>
+  <a herf="lab/lb13/lb13.html">lab13</a>
+  <a href="lab/lb14/lb14.html">lab14</a>
+  <a href="lab/lb15/lb15.html">lab15</a>
+  <a herf="lab/lb16/lb16.html">lab16</a>
+  <a herf="lab/lb17/lb17.html">lab17</a>
+  <a herf="lab/lb18/lb18.html">lab18</a>
+  <a herf="lab/lb19/lb19.html">lab19</a>
+  <a herf="lab/lb20/lb20.html">lab20</a>
+    </div>
+    <div class="header">
+    <h1> Thomas A. Edison HS </h1>
+    <h2> web Design Academy </h2>
+    <h3> Portfolio 2021-22</h3>
+    <h4>Caiyel Brown </h4>
+  </div>  
+    <div id="demoBox">
+      <h1> Caiyel</h1>
+      <h1 id="lname">Brown</h1>
+      <h1>2/9/2022</h1>
+      </div>
+
+  </body>
+  </html>

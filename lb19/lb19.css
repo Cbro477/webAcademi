@@ -1,0 +1,26 @@
+.wow {
+  width: 100px;
+}
+
+body{
+  background-color:#cde2e5; /*Test color*/
+  color: #3b3b3b;
+}
+
+.topnav{background-color: rgb(0, 96, 138);
+  overflow: hidden; /*Change the color to match background*/
+  }
+
+.topnav a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+

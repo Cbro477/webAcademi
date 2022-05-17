@@ -1,0 +1,38 @@
+*{ 
+  color:rgb(0, 0, 0);
+  }
+  /*wrtie a comment explaining what you are doing on line 2 */
+  *.topnav{
+    box-sizing: border-box;  
+  } 
+  .topnav/*make a predicton about line 6 rule set*/
+  Body{
+    background-color: rgb(6, 253, 220);
+  color:blueviolet;
+  }
+  /*style of the navigation bar*/
+  .topnav{background-color: rgb(28, 31, 224);
+  overflow: hidden;
+  }
+  /*style the links inside the navigation bar*/
+  .topnav a{
+    color:rgba(30, 247, 236, 0.993);
+    float: left;
+    text-align: center;
+    padding: 14px 16px
+  } 
+
+  /*changes color on hover or mouse over*/
+  .topnav  a;hover{background-color:# alicebluewhite;
+  color: #f1f1
+  }
+  
+  .header{background-color: lightgoldenrodyellow;
+  padding: 20xp;
+  text-align : right;
+  color: #f1f1f1}
+  /*Creates 3 equal colums that float next to each other*/
+  .column{float: left;
+  width:33.33%;
+  padding:15px;
+  }
